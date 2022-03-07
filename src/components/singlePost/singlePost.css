@@ -1,10 +1,9 @@
 .singlePost {
-    flex: 9;
+    overflow: hidden;
   }
   
   .singlePostWrapper {
-    padding: 20px;
-    padding-right: 0;
+   overflow: hidden;
   }
   
   .singlePostImg {

@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import NavBar from './components/navbar/NavBar';
 import Home from './pages/home/Home';
@@ -7,11 +7,11 @@ import Register from "./pages/register/Register";
 import Settings from "./pages/settings/Settings";
 import Single from "./pages/single/Single";
 import Write from "./pages/write/Write";
-import { render } from "react-dom";
+
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 
 function App() {
-  const currentUser = true;
+  
   return (
 
     <BrowserRouter>
